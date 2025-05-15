@@ -18,6 +18,9 @@
   }
   #hamburger-nav {
     display: flex;
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-right:20px;
   }
   #experience,
   .experience-details-container {
@@ -25,8 +28,17 @@
   }
   #profile,
   .section-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
   }
+
+  .section__text{
+    margin-top: 20px;
+  }
+  
   .arrow {
     display: none;
   }
@@ -41,6 +53,9 @@
     width: 275px;
     height: 275px;
     margin: 0 auto 2rem;
+  }
+  .section__text{
+    display:block;
   }
   .about-containers {
     margin-top: 0;
@@ -87,9 +102,10 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
+    width: 100%;
     height: 46vw;
     justify-content: center;
+    margin-bottom: 40px;
   }
   .section__text__p2 {
     font-size: 1.25rem;
